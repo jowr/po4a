@@ -25,7 +25,8 @@ jobs:
         #perl-version: '5.32'
         distribution: strawberry
         install-modules-with: cpanm
-        install-modules: Term::ReadKey Unicode::GCString Syntax::Keyword::Try http://search.cpan.org/CPAN/authors/id/R/RA/RAAB/SGMLSpm-1.1.tar.gz YAML::Tiny
+        install-modules: Locale::gettext Text::WrapI18N Unicode::LineBreak Test::Pod YAML::Tiny Syntax::Keyword::Try Unicode::GCString http://search.cpan.org/CPAN/authors/id/R/RA/RAAB/SGMLSpm-1.1.tar.gz
+        # install-modules: Term::ReadKey Unicode::GCString http://search.cpan.org/CPAN/authors/id/R/RA/RAAB/SGMLSpm-1.1.tar.gz
         # Locale::gettext and Text::WrapI18N seem broken on windows.
     - run: perl -V
 #    - name: Install Debian dependencies

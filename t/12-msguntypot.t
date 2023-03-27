@@ -16,7 +16,7 @@ if ( $^O eq 'MSWin32' ) {
 
 push @tests,
   {
-    'run' => 'copy t-12-msguntypot\test1.po tmp && chmod u+w tmp\test1.po '
+    'run' => 'copy t-12-msguntypot\test1.po tmp '
       . '&& PATH\msguntypot -o t-12-msguntypot\test1.old.pot -n t-12-msguntypot\test1.new.pot tmp\test1.po > NUL',
     'tests' => ["PODIFF t-12-msguntypot\test1.new.po tmp\test1.po"],
     'doc'   => 'nominal test',
