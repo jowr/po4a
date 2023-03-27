@@ -23,7 +23,7 @@ jobs:
     - uses: shogo82148/actions-setup-perl@v1
       with:
         #perl-version: '5.32'
-        distribution: strawberry
+        #distribution: strawberry
         install-modules-with: cpanm
         install-modules: Locale::gettext Text::WrapI18N Unicode::LineBreak Test::Pod YAML::Tiny Syntax::Keyword::Try Unicode::GCString http://search.cpan.org/CPAN/authors/id/R/RA/RAAB/SGMLSpm-1.1.tar.gz
         # install-modules: Term::ReadKey Unicode::GCString http://search.cpan.org/CPAN/authors/id/R/RA/RAAB/SGMLSpm-1.1.tar.gz
