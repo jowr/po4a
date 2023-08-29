@@ -9,6 +9,47 @@ __   __/ _ \|___  / _ \
   \_/  \___(_)_/  \___/           (not released yet)
 
 
+Asciidoc:
+ * Labels of cross-references were not translatable (GitHub's #400).
+   Thanks Jean-Noël Avila for the pull request.
+ * Fix a bug in the handling of the 'id' attribute (GitHub's #411).
+   Thanks Jean-Noël Avila for the pull request.
+ * Process multi-line attributes in legacy and asciidoctor mode
+   (GitHub's #414). Thanks Jean-Noël Avila for the pull request.
+ * Process transparent index entries in their own segments
+   (GitHub's #424). Thanks Jean-Noël Avila for the pull request.
+ * Keep original formatin (GitHub's #416). Thanks suddenfall for 
+   the feedback, and Jean-Noël Avila for the fixes.
+
+Tex:
+ * Allow verbatim environment declaration without trailing space
+   (GitHub's #407). Thanks Mayeul Cantan for the report & the fix.
+
+Markdown:
+ * Treat link reference definitions as no-wrap (GitHub's #422) [gemmaro].
+ * Don't emit a warning when provided an empty tag list in YFM
+   (GitHub's #426) [Martin].
+
+General:
+ * Don't fail on empty po files, e.g. adoc files containing only
+   includes. Thanks Suddenfall for the report & fix (GitHub's #408).
+ * Fix an encoding error in one file which resulted in build errors
+   with new gettext versions (GitHub's #428).
+   Thanks to Jan Palus for the issue report and the fix.
+
+po4a main script (the deprecated po4a-* scripts are still buggy):
+ * Deal properly with CRLF files coming from windows (GitHub's #409).
+ * Allow to escape spaces in file names, or to quote them (GitHub's #412).
+
+Translations:
+ * Updated: French, thanks Jérémie Tarot.
+ * Updated: German, thanks Helge Kreutzmann.
+ * Updated: Japanese, thanks gemmaro.
+ * Updated: Norwegian Bokmål, thanks Allan Nordhøy.
+ * Updated: Portuguese, thanks Silvério Santos.
+ * Updated: Russian, thanks vrbtm.
+ * Updated: Serbian (cyrillic), thanks Ivan Pesic.
+
 =======================================================================
         ___   __   ___
 __   __/ _ \ / /_ / _ \

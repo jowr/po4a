@@ -107,6 +107,11 @@ Horizontal Labeled Lists
 *Dolor*:::
     Vivamus fringilla mi eu lacus.
 
+|::
+  Vivamus fringilla mi eu lacus.
+
+{var}Dolor:: Donec eget arcu bibendum nunc consequat lobortis.
+
 Question and Answer Lists
 -------------------------
 Question one??
@@ -216,3 +221,8 @@ After deciding the fate for all hunks, if there is any hunk that was chosen, the
 ... Third level
 .... Fourth level
 ..... Fifth level
+
+* [ ] Unchecked
+* [x] Checked
+* [X] Checked
+* [*] Checked

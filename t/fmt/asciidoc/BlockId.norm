@@ -4,5 +4,7 @@ Test BlockId Element
 [[lorem-ipsum]]
 Some paragraph text. Some paragraph text. Some paragraph text. Some paragraph text. Some paragraph text. Some paragraph text.
 
-
+[[ipsum-quia,Second Paragraph]]
 Reference to <<lorem-ipsum, Lorem Ipsum>>.
+
+[[ipsum]] Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor: [[dolor]]
